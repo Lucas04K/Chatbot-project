@@ -59,8 +59,9 @@ def load_rag_chain():
 Regeln:
 - Antworte immer auf Deutsch
 - Beziehe dich konkret auf den bereitgestellten Kontext
+- Wenn gefragt wird 'Was war an Tag <xy>', dann nutze Metadata
 - Wenn die Antwort nicht im Kontext enthalten ist, antworte exakt:
-  "Diese Information ist in den bereitgestellten Dokumenten nicht enthalten."
+  "Diese Information ist in den bereitgestellten Protokollen nicht enthalten."
 - Nenne am Ende deiner Antwort die verwendete Quelldatei, sofern vorhanden
 
 Kontext:
